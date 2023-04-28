@@ -28,6 +28,7 @@ body{
 /* ========================= Шапка сайта ========================= */
 .logo {
 font-family: 'Raleway', sans-serif;
+font-style: normal;
 font-weight: 800;
 font-size: 18px;
 line-height: 1.17;
@@ -63,28 +64,20 @@ color: var(--title-color);
 .menu-link:focus {
 color: var(--link-color);
 }
-.address-phone {
-font-style: normal;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: var(--main-color-text);
-}
-.address-phone:hover,
-.address-phone:focus {
- color:var(--link-color);
-}
-.address-mail {
+/* ============================================================================= */
+
+.address {
 font-style: normal;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: var(--main-color-text)
 }
-.address-mail:hover,
-.address-mail:focus {
+.address:hover,
+.address:focus {
  color:var(--link-color);
 }
+/* ============================================================================= */
 /* ========================= /Шапка сайта ========================= */
 
 /* ========================= Главное окно ========================= */
