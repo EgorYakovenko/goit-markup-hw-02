@@ -65,16 +65,20 @@ color: var(--title-color);
 color: var(--link-color);
 }
 /* ============================================================================= */
+.adress {
+font-style: normal;
+}
 
-.address {
+
+.contact {
 font-style: normal;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
-color: var(--main-color-text)
+color: var(--main-color-text);
 }
-.address:hover,
-.address:focus {
+.contact:hover,
+.contact:focus {
  color:var(--link-color);
 }
 /* ============================================================================= */
